@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+
+# Compiled Java classes
+bin/
+*.class
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.tmp
+
+# IDE / Editor folders
+*.idea/
+*.vscode/
+*.project
+*.classpath
+*.settings/
+
+# Environment variables / secrets
+.env
+*.env
+.env.local
+
+# JARs (optional: you might still keep your json jar for the project)
+# *.jar
+
+# Python extras (if not needed)
+__pycache__/
+*.pyc
+
