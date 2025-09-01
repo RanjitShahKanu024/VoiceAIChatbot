@@ -1,5 +1,5 @@
-🎤 VoiceAIChatbot: Where AI Meets Your Voice
-📸 Screenshots:
+###🎤 VoiceAIChatbot: Where AI Meets Your Voice
+###📸 Screenshots:
 
 ### System ERD
 This diagram shows the Entity-Relationship model for the VoiceAIChatbot, illustrating the main components and data flow.
@@ -14,12 +14,11 @@ A more detailed diagram used in presentations to explain the chatbot architectur
 
 
 
-Project Title and Description:
 # VoiceAIChatbot
 🎤 A voice-enabled AI chatbot in Java using Groq API. Currently supports **text input** and **text-to-speech responses**.
 
 
-Features Section:
+
 ## Features
 - Text input chatbot  
 - Optional speech responses  
@@ -27,26 +26,44 @@ Features Section:
 - Clean project structure with compiled code and dependencies separated  
 
 
-Project Structure Section:
+
+# VoiceAIChatbot
+
+🎤 A voice-enabled AI chatbot in Java using the Groq API.  
+Currently supports **text input** and **text-to-speech responses**.
+
+---
+
+## Features
+
+- Text input chatbot  
+- Optional speech responses  
+- Environment-variable safe API key usage  
+- Clean project structure with compiled code and dependencies separated  
+
+---
+
 ## Project Structure
 
+```text
 VoiceAIChatbot/
-│── src/
-│   └── VoiceAIChatbot.java
-│── JarFiles/
-│   └── json-20240303.jar
-│── bin/
-│   └── VoiceAIChatbot.class
-│── docs/
-│   ├── VoiceAIChatbot_ERD.png
-│   └── VoiceAIChatbot_Presentation_ERD.png
-│── extras/
-│   └── voice_recognition.py
-│── .gitignore
-│── README.md
+├── src/
+│   └── VoiceAIChatbot.java                   # Main Java source file
+├── JarFiles/
+│   └── json-20240303.jar                     # JSON library dependency
+├── bin/
+│   └── VoiceAIChatbot.class                  # Compiled Java class
+├── docs/
+│   ├── VoiceAIChatbot_ERD.png                # Entity Relationship Diagram
+│   └── VoiceAIChatbot_Presentation_ERD.png   # ERD used in presentation
+├── extras/
+│   └── voice_recognition.py                  # Optional Python helper script
+├── .gitignore                                # Git ignore rules
+└── README.md                                 # Project documentation
 
 
-Setup Instructions Section:
+
+
 ## Setup Instructions
 
 1. **Clone the repository:**
